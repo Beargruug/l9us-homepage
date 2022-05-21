@@ -20,7 +20,19 @@ const Imprint = () => (
           </StyledBox>
           <StyledBox>
             <StyledSpan>Contact:</StyledSpan>
-            Phone: 0157-78071168 E-Mail: info@fabianmail.com
+            <StyledSpan>Phone:</StyledSpan>
+            0157-78071168
+            <StyledSpan style={{marginLeft: '8px'}}>E-Mail:</StyledSpan>
+            info@fabianmail.com
+          </StyledBox>
+          <StyledBox>
+            <StyledSpan>Links:</StyledSpan>
+            <a
+              href="https://www.flaticon.com/de/kostenlose-icons/rasse"
+              title="rasse Icons"
+            >
+              Breed Icons created from Peerapak Takpho - Flaticon
+            </a>
           </StyledBox>
         </Box>
       </Box>
