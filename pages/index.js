@@ -38,7 +38,7 @@ const Page = () => {
             Web Developer at netmedia GmbH
           </StyledBox>
           <StyledBox>
-            <StyledSpan>2020</StyledSpan>
+            <StyledSpan>2020 - now</StyledSpan>
             Full Stack Web Developer at Evana AG 
           </StyledBox>
         </Box>
