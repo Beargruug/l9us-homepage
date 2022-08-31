@@ -16,16 +16,12 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeButton from './theme-button'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
   return (
-    <NextLink
-      href={href}
-      passHref
-      scroll={false}
-    >
+    <NextLink href={href} passHref scroll={false}>
       <Link
         _focus={{ boxShadow: 'none', outline: 'none' }}
         p={2}
@@ -86,6 +82,18 @@ const Navbar = props => {
             <IoLogoGithub />
             Source
           </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://www.linkedin.com/in/fabian-scheid-069bab183"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoLinkedin />
+            LinkedIn
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
@@ -105,6 +113,12 @@ const Navbar = props => {
                   href="https://github.com/l9us/l9us-homepage"
                 >
                   View Source
+                </MenuItem>
+                <MenuItem
+                  as={Link}
+                  href="https://www.linkedin.com/in/fabian-scheid-069bab183"
+                >
+                  LinkedIn
                 </MenuItem>
               </MenuList>
             </Menu>
