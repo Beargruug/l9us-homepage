@@ -20,9 +20,6 @@ const Imprint = () => (
           </StyledBox>
           <StyledBox>
             <StyledSpan>Contact:</StyledSpan>
-            <StyledSpan>Phone:</StyledSpan>
-            0157-78071168
-            <StyledSpan style={{marginLeft: '8px'}}>E-Mail:</StyledSpan>
             info@fabianmail.com
           </StyledBox>
           <StyledBox>

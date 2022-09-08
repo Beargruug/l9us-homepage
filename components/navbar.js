@@ -72,7 +72,7 @@ const Navbar = props => {
         >
           <LinkItem
             target="_blank"
-            href="https://github.com/l9us/l9us-homepage"
+            href="https://github.com/l9us"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -80,7 +80,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            Github
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -108,11 +108,8 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/l9us/l9us-homepage"
-                >
-                  View Source
+                <MenuItem as={Link} href="https://github.com/l9us">
+                  Github
                 </MenuItem>
                 <MenuItem
                   as={Link}
