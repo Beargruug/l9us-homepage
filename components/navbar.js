@@ -113,7 +113,7 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://www.linkedin.com/in/fabian-scheid-069bab183"
+                  href="https://www.linkedin.com/in/fabian-scheid"
                 >
                   LinkedIn
                 </MenuItem>
