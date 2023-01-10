@@ -13,11 +13,7 @@ const Page = () => {
 
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
-<<<<<<< Updated upstream
-            <Heading as="h2" variant="page-title">
-=======
             <Heading className="name" as="h2" variant="page-title">
->>>>>>> Stashed changes
               Fabian Scheid
             </Heading>
             <p>(Current position: Full-Stack Developer at Evana AG) </p>
@@ -30,12 +26,6 @@ const Page = () => {
               CV
             </Heading>
             <StyledBox>
-<<<<<<< Updated upstream
-              <StyledSpan>2017</StyledSpan>
-              Vocational training as a Software Developer at Avarteq GmbH
-            </StyledBox>
-            <StyledBox>
-=======
               <StyledSpan>2015</StyledSpan>
               Vocational training as a Software Developer at Avarteq GmbH
             </StyledBox>
@@ -58,29 +48,24 @@ const Page = () => {
               </Text>
             </StyledBox>
             <StyledBox>
->>>>>>> Stashed changes
               <StyledSpan>2018</StyledSpan>
               Software Developer at Gubse AG
             </StyledBox>
             <StyledBox>
-<<<<<<< Updated upstream
-=======
               <Text fontSize="xs">
                 <StyledSpan>Skillset</StyledSpan>
                 (C++, Kanban, Agile Software Development)
               </Text>
             </StyledBox>
             <StyledBox>
->>>>>>> Stashed changes
               <StyledSpan>2018</StyledSpan>
               Web Developer at netmedia GmbH
             </StyledBox>
             <StyledBox>
-<<<<<<< Updated upstream
               <StyledSpan>2020 - now</StyledSpan>
               Full Stack Web Developer at Evana AG
             </StyledBox>
-=======
+            <StyledBox>
               <Text fontSize="xs">
                 <StyledSpan>Skillset</StyledSpan>
                 (React, HTML, CSS, Node.js, JavaScript, GitHub, jQuery,
@@ -99,7 +84,6 @@ const Page = () => {
                 Scrum, Docker, MongoDB, GoLang)
               </Text>
             </StyledBox>
->>>>>>> Stashed changes
           </Box>
         </Box>
       </Container>
