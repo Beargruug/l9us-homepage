@@ -62,10 +62,6 @@ const Page = () => {
               Web Developer at netmedia GmbH
             </StyledBox>
             <StyledBox>
-              <StyledSpan>2020 - now</StyledSpan>
-              Full Stack Web Developer at Evana AG
-            </StyledBox>
-            <StyledBox>
               <Text fontSize="xs">
                 <StyledSpan>Skillset</StyledSpan>
                 (React, HTML, CSS, Node.js, JavaScript, GitHub, jQuery,
