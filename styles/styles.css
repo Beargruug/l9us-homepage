@@ -1,0 +1,6 @@
+.name {
+  color: transparent;
+  background-image: linear-gradient(90deg, red, white, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+}

@@ -3,6 +3,7 @@ import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
 const Name = styled.span`
+  color: transparent;
   font-weight: bold;
   font-size: 20px;
   display: inline-flex;
@@ -12,7 +13,6 @@ const Name = styled.span`
 `
 
 const Logo = () => {
-
   return (
     <Link href="/" scroll={false}>
       <a>
@@ -22,7 +22,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-          Fabian Scheid 
+            Fabian Scheid
           </Text>
         </Name>
       </a>
@@ -30,4 +30,4 @@ const Logo = () => {
   )
 }
 
-export default Logo 
+export default Logo
