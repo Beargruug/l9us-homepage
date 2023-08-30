@@ -70,7 +70,7 @@ const Page = () => {
               </Text>
             </StyledBox>
             <StyledBox>
-              <StyledSpan>2020 - now</StyledSpan>
+              <StyledSpan>2020 - 2023</StyledSpan>
               Full Stack Web Developer at Evana AG
             </StyledBox>
             <StyledBox>
@@ -78,6 +78,16 @@ const Page = () => {
                 <StyledSpan>Skillset</StyledSpan>
                 (React, HTML, CSS, Node.js, TypeScript, JavaScript, Azure,
                 Scrum, Docker, MongoDB, GoLang)
+              </Text>
+            </StyledBox>
+            <StyledBox>
+              <StyledSpan>2023 - now</StyledSpan>
+              Frontend Web Developer at nuwork
+            </StyledBox>
+            <StyledBox>
+              <Text fontSize="xs">
+                <StyledSpan>Skillset</StyledSpan>
+                (React, HTML, CSS, Tailwindcss, Node.js, Nest.js TypeScript, JavaScript, Github)
               </Text>
             </StyledBox>
           </Box>
