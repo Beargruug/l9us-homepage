@@ -82,7 +82,7 @@ const Page = () => {
             </StyledBox>
             <StyledBox>
               <StyledSpan>2023 - now</StyledSpan>
-              Frontend Web Developer at nuwork
+              Full Stack Developer at nuwork
             </StyledBox>
             <StyledBox>
               <Text fontSize="xs">
