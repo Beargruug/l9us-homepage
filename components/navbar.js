@@ -72,7 +72,7 @@ const Navbar = props => {
         >
           <LinkItem
             target="_blank"
-            href="https://github.com/l9us"
+            href="https://github.com/beargruug"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -108,7 +108,7 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <MenuItem as={Link} href="https://github.com/l9us">
+                <MenuItem as={Link} href="https://github.com/beargruug">
                   Github
                 </MenuItem>
                 <MenuItem
