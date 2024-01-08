@@ -3,6 +3,7 @@ import { StyledBox, StyledSpan } from '../components/box'
 import Layout from '../components/layouts/container'
 
 const Page = () => {
+  return '';
   return (
     <Layout>
       <Container>
